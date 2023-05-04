@@ -1,0 +1,33 @@
+.park-selected-content {
+  padding-top: calc(var(--padding-android, env(safe-area-inset-top)) + 105px);
+  padding-bottom: calc(var(--padding-android, env(safe-area-inset-bottom)) + 82px);
+}
+
+.park-selected-rides {
+  display: flex;
+  flex-direction: column;
+}
+
+.park-selected-button-configure-background {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.248);
+}
+
+.park-selected-button-configure-icon {
+  font-size: 25px;
+  color: black;
+}
+
+.park-selected-button-configure-label {
+  font-weight: 500;
+  font-size: 20px;
+  color: black;
+  margin-left: 5px;
+}

@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5f7d858d.css",
+    "main.js": "/static/js/main.2ac9464d.js",
+    "static/js/27.d7edcaed.chunk.js": "/static/js/27.d7edcaed.chunk.js",
+    "static/media/UniversalStudiosIcon.png": "/static/media/UniversalStudiosIcon.ed19796dbbd794323e82.png",
+    "static/media/UniversalIslandOfAdventureIcon.png": "/static/media/UniversalIslandOfAdventureIcon.a64ec3911d6981af88c6.png",
+    "static/media/AnimalKingdomIcon.png": "/static/media/AnimalKingdomIcon.a59551899b332cecfc3c.png",
+    "static/media/HollywoodStudiosIcon.png": "/static/media/HollywoodStudiosIcon.51943684aba72f01a084.png",
+    "static/media/EpcotIcon.png": "/static/media/EpcotIcon.f20e2bbda6d673388efe.png",
+    "static/media/MagicKingdomIcon.png": "/static/media/MagicKingdomIcon.791d8f345343322d976a.png",
+    "index.html": "/index.html"
+  },
+  "entrypoints": [
+    "static/css/main.5f7d858d.css",
+    "static/js/main.2ac9464d.js"
+  ]
+}

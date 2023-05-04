@@ -1,0 +1,185 @@
+.attraction-selected-content {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding-top: calc(var(--padding-android, env(safe-area-inset-top)) + 82px);
+  padding-bottom: calc(var(--padding-android, env(safe-area-inset-bottom)) + 82px);
+}
+
+.attraction-selected-image {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+  border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.attraction-selected-favorite {
+  color: white;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.attraction-selected-favorite-selected {
+  color: red;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.attraction-selected-favorite-empty {
+  color: rgba(0, 0, 0, 0.579);
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 30px;
+  font-size: 25px;
+}
+
+.attraction-selected-pin {
+  color: #2C66D2;
+  font-size: 30px;
+  position: absolute;
+  right: 20px;
+  margin-top: 30px;
+  stroke-width: 25px;
+  height: 30px;
+  width: 20px;
+  stroke: white;
+}
+
+.attraction-selected-details {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border-bottom: 1px solid #ededed;
+}
+
+.attraction-selected-park {
+  font-size: 12px;
+}
+
+.attraction-selected-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2C66D2;
+  margin-top: 5px;
+}
+
+.attraction-selected-wait-time-background {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(188, 188, 188);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.435);
+  height: 50px;
+  width: 50px;
+  right: 20px;
+  margin-top: -40px;
+}
+
+.wait-time-green {
+  background-color: green;
+}
+
+.wait-time-blue {
+  background-color:#2C66D2;
+}
+
+.wait-time-yellow {
+  background-color: rgb(255, 174, 0);
+}
+
+.wait-time-red {
+  background-color: red;
+}
+
+.attraction-selected-wait-time-label {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.attraction-selected-distance-background {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: auto;
+}
+
+.attraction-selected-distance-icon {
+  font-size: 14px;
+  color: gray;
+}
+
+.attraction-selected-distance-label {
+  font-size: 14px;
+  color: gray;
+  margin-left: 5px;
+}
+
+.distance-green {
+  color: green;
+}
+
+.distance-yellow {
+  color: rgb(255, 174, 0);
+}
+
+.distance-red {
+  color: red;
+}
+
+.attraction-selected-visited-distance {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.attraction-selected-visited-container {
+  background-color: rgb(194, 235, 194);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.attraction-selected-visited-label {
+  color: rgb(0, 124, 0);
+}
+
+.attraction-selected-button {
+  margin: 10px;
+  outline: none;
+  border-radius: 10px;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.attraction-selected-button-visited {
+  background-color: rgb(194, 235, 194);
+  border: 1px solid rgb(0, 124, 0);
+  color: rgb(0, 124, 0);
+}
+
+.attraction-selected-button-not-visited {
+  background-color: rgb(235, 194, 194);
+  border: 1px solid rgb(149, 0, 0);
+  color: rgb(149, 0, 0);
+}
+
+.attraction-selected-button-select-attraction {
+  background-color: rgb(173, 211, 255);
+  border: 1px solid rgb(0, 119, 255);
+  color: rgb(0, 119, 255);
+}

@@ -1,0 +1,173 @@
+.park-selected-item-content {
+  display: flex;
+  flex-direction: column;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.197);
+  overflow: hidden;
+  background-color: white;
+}
+
+.park-selected-item-image {
+  height: 100px;
+  width: 100%;
+  object-fit: cover;
+  border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.park-selected-item-favorite {
+  color: white;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.park-selected-item-favorite-selected {
+  color: red;
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.park-selected-item-favorite-empty {
+  color: rgba(0, 0, 0, 0.579);
+  position: absolute;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 25px;
+}
+
+.park-selected-item-pin {
+  color: #2C66D2;
+  font-size: 30px;
+  position: absolute;
+  right: 20px;
+  margin-top: 10px;
+  stroke-width: 25px;
+  height: 30px;
+  width: 20px;
+  stroke: white;
+}
+
+.park-selected-item-details {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 10px;
+}
+
+.park-selected-item-park {
+  font-size: 12px;
+}
+
+.park-selected-item-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #2C66D2;
+  margin-top: 5px;
+}
+
+.park-selected-item-wait-time-background {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(188, 188, 188);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.435);
+  height: 50px;
+  width: 50px;
+  right: 20px;
+  margin-top: -40px;
+}
+
+.wait-time-green {
+  background-color: green;
+}
+
+.wait-time-blue {
+  background-color:#2C66D2;
+}
+
+.wait-time-yellow {
+  background-color: rgb(255, 174, 0);
+}
+
+.wait-time-red {
+  background-color: red;
+}
+
+.park-selected-item-wait-time-label {
+  color: white;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.park-selected-item-visited-distance {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+.park-selected-item-visited-container {
+  background-color: rgb(194, 235, 194);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.park-selected-item-visited-label {
+  color: rgb(0, 124, 0);
+}
+
+.park-selected-item-notification-container {
+  background-color: #a0c1ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+.park-selected-item-notification-label {
+  color: #2C66D2;
+}
+
+.park-selected-item-distance-background {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+  margin-left: auto;
+}
+
+.park-selected-item-distance-icon {
+  font-size: 14px;
+  color: gray;
+}
+
+.park-selected-item-distance-label {
+  font-size: 14px;
+  color: gray;
+  margin-left: 5px;
+}
+
+.distance-green {
+  color: green;
+}
+
+.distance-yellow {
+  color: rgb(255, 174, 0);
+}
+
+.distance-red {
+  color: red;
+}

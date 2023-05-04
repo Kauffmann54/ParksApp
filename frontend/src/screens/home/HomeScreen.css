@@ -1,0 +1,20 @@
+.home-screen-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: calc(var(--padding-android, env(safe-area-inset-top)) + 70px);
+}
+
+.home-screen-content {
+  display: flex;
+  flex-direction: column;
+  max-width: 1000px;
+}
+
+.home-screen-parks {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}

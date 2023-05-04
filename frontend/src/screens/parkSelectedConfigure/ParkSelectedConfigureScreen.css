@@ -1,0 +1,9 @@
+.park-selected-configure-content {
+  padding-top: calc(var(--padding-android, env(safe-area-inset-top)) + 105px);
+  padding-bottom: calc(var(--padding-android, env(safe-area-inset-bottom)) + 82px);
+}
+
+.park-selected-configure-rides {
+  display: flex;
+  flex-direction: column;
+}

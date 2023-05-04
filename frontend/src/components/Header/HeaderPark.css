@@ -1,0 +1,32 @@
+.header-park-background {
+    width: 100%;
+    position: fixed;
+    z-index: 99999999;
+    background: rgba(0, 110, 255, 0.3);
+    border-radius: 0px 0px 25px 0px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.15);
+    backdrop-filter: blur(12.3px);
+    -webkit-backdrop-filter: blur(12.3px);
+    padding-top: calc(var(--padding-android, env(safe-area-inset-top)) + 20px);
+    padding-bottom: 20px;
+    transition: all 0.3s;
+}
+
+.header-park-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 10px;
+}
+
+.header-park-arrow-back {
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+}
+
+.header-park-title {
+    margin-left: 5px;
+    margin-right: 10px;
+    color: white;
+}

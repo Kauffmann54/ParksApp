@@ -1,0 +1,20 @@
+.park-option-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+.park-option-image {
+  height: 35vw;
+  width: 35vw;
+  max-width: 300px;
+  max-height: 300px;
+}
+
+.park-option-name {
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+}
