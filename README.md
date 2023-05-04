@@ -33,7 +33,7 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 ## Home
 Show available parks
 
-<img src="./assets/parks_image_1.png" alt="Home screen" style="zoom:20%; margin-left:10px;" />
+<img src="./assets/parks_image_1.png" alt="Home screen" style="width: 300px; margin-left:10px;" />
 
 ## Selected park screen
 
@@ -43,7 +43,7 @@ Show available parks
 - Check if the attraction has already been visited
 - Check if you have an alert activated and the time
 
-<img src="./assets/parks_image_2.png" alt="Selected park" style="zoom:20%; margin-left:10px;" />
+<img src="./assets/parks_image_2.png" alt="Selected park" style="width: 300px; margin-left:10px;" />
 
 ## Selected attraction screen
 
@@ -51,20 +51,20 @@ Show available parks
 - "Select Attraction" Button to Show on iPhone Screen Widget
 - "Create alert" button to go to the create alert screen
 
-<img src="./assets/parks_image_3.png" alt="Selected attraction" style="zoom:20%; margin-left:10px;" />
+<img src="./assets/parks_image_3.png" alt="Selected attraction" style="width: 300px; margin-left:10px;" />
 
 Screen with "Mark as visited" button selected
 
-<img src="./assets/parks_image_4.png" alt="Selected attraction" style="zoom:20%; margin-left:10px;" />
+<img src="./assets/parks_image_4.png" alt="Selected attraction" style="width: 300px; margin-left:10px;" />
 
 ## Screen to create an alert
 
 The screen already shows the recommended time, but it is possible to select the time you want.
 
-<img src="./assets/parks_image_5.png" alt="Create alert screen" style="zoom:20%; margin-left:10px;" />
+<img src="./assets/parks_image_5.png" alt="Create alert screen" style="width: 300px; margin-left:10px;" />
 
 ## Screen to organize the priority order of attractions
 
 You can hold an attraction and reorder them with the priority you want the system to recommend to you.
 
-<img src="./assets/parks_image_6.png" alt="Screen to organize the priority order of attractions" style="zoom:20%; margin-left:10px;" />
+<img src="./assets/parks_image_6.png" alt="Screen to organize the priority order of attractions" style="width: 300px; margin-left:10px;" />
